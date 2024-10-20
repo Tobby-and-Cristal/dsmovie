@@ -1,7 +1,7 @@
 import { ReactComponent as GithubIcon } from 'assents/img/github.svg';
 import './styles.css';
 
-function NavBar() {
+function Navbar() {
 
     return (
         <header>
@@ -11,7 +11,7 @@ function NavBar() {
                     <a href="https://github.com/Tobby-and-Cristal/dsmovie">
                         <div className="dsmovie-contact-container">
                             <GithubIcon />
-                            <p>/devsuperor</p>
+                            <p className="dsmovie-contact-link">/devsuperior</p>
                         </div>
 
                     </a>
@@ -22,4 +22,4 @@ function NavBar() {
 
 }
 
-export default NavBar;
+export default Navbar;
